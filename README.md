@@ -1,14 +1,29 @@
-# Snake-Game
+# FPGA-based Snake Game
 
+An implementation of the classic Snake game on an FPGA (Field-Programmable Gate Array), showcasing real-time gameplay entirely in hardware.
 
-Implementation of the classic Snake Game, developed on an FPGA (Field-Programmable Gate Array) . This project demonstrates the implementation of a hardware version of the timeless Snake game, utilizing Verilog for the core game logic, including a random number generator for fruit placement and snake movement.
+## Features
 
-Features
+- **Classic Snake Gameplay**  
+  Enjoy the timeless Snake game experience directly on your FPGA hardware.
 
-Classic Snake Gameplay: Enjoy the timeless gameplay of Snake directly on your FPGA device.
+- **Verilog Implementation**  
+  Core game logic, including snake movement and fruit generation, is fully implemented in Verilog, demonstrating efficient hardware design techniques.
 
-Verilog Implementation: Core game logic, including snake movement and fruit generation, is implemented using Verilog, demonstrating efficient hardware programming techniques.
+- **Custom Random Number Generator**  
+  Includes a Verilog-based random number generator for unpredictable fruit placement, enhancing gameplay dynamics.
 
-Random Number Generator: Features a custom Verilog-based random number generator for unpredictable fruit placement.
+- **VGA Output Support**  
+  The game displays in real-time on a monitor via a VGA interface, providing a smooth and seamless gaming experience.
 
-VGA Output: The game's visual output is displayed on a computer monitor through a VGA interface, offering a seamless gaming experience.
+## Highlights
+
+- Showcases low-level hardware design skills using Verilog.
+- Demonstrates VGA signal handling and real-time graphical rendering directly from FPGA.
+- Integrates logic design and real-time visual output for a complete hardware gaming project.
+
+---
+
+## Getting Started
+
+Provide your build instructions or setup details here.
